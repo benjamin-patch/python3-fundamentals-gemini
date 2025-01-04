@@ -25,7 +25,7 @@ print("My name is", name, "and I am", age, "years old.")
 # If you were to remove the commas and write:
 
 # ```python
-# print("My name is"name"and I am"age"years old.") 
+# print("My name is"name"and I am"age"years old.")
 # ```
 
 # Python would treat the entire sequence of characters as a single string literal, resulting in the output:
@@ -33,6 +33,8 @@ print("My name is", name, "and I am", age, "years old.")
 # ```
 # My name isAliceand I am30years old.
 # ```
+
+# Actually, Python 3.13.1 throws a syntax error and suggests adding commas.
 
 # This clearly shows how important those commas are for readability!
 
