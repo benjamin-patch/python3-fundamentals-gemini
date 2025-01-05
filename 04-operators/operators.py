@@ -32,8 +32,8 @@ x == 5 # is like looking into the box and asking, "Is the number 5 in this box?"
 # This can lead to unexpected behavior in your code.
 
 # Example
-x = 5 
-if x = 5:  # This is incorrect! It should be x == 5
-    print("x is 5")
+# x = 5 
+# if x = 5:  # This is incorrect! It should be x == 5
+#     print("x is 5")
 
 # In this incorrect code, the `if` statement would always evaluate to `True` because the assignment `x = 5` itself returns a value (which is considered "truthy" in Python).
