@@ -30,3 +30,14 @@ print(my_set)  # Output: {1, 2, 3}
 my_set.add(4)
 my_set.remove(2)
 print(my_set)  # Output: {1, 3, 4}
+
+# 4. Dictionaries
+# Characteristics: Unordered, mutable, stores key-value pairs, keys must be unique and immutable.
+# Common Use Cases: Representing structured data, efficient lookups by key, creating mappings.
+
+my_dict = {"name": "Alice", "age": 30, "city": "New York"}
+
+print(my_dict["name"])  # Accessing value by key (output: Alice)
+my_dict["age"] = 31  # Modifying a value
+my_dict["country"] = "USA"  # Adding a new key-value pair
+print(my_dict)
