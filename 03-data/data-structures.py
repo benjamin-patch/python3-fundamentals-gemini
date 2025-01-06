@@ -19,3 +19,14 @@ my_tuple = (10, 20, "python")
 
 print(my_tuple[1])  # Accessing the second element (output: 20)
 # my_tuple[1] = 30  # This would raise an error because tuples are immutable
+
+# 3. Sets
+# Characteristics: Unordered, mutable, no duplicates, efficient for membership checks.
+# Common Use Cases: Removing duplicates from a collection, performing set operations (union, intersection, etc.).
+
+my_set = {1, 2, 2, 3}  # Duplicates are automatically removed
+
+print(my_set)  # Output: {1, 2, 3}
+my_set.add(4)
+my_set.remove(2)
+print(my_set)  # Output: {1, 3, 4}
