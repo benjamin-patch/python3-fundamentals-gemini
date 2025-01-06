@@ -41,3 +41,15 @@ print(my_dict["name"])  # Accessing value by key (output: Alice)
 my_dict["age"] = 31  # Modifying a value
 my_dict["country"] = "USA"  # Adding a new key-value pair
 print(my_dict)
+
+# Choosing the Right Data Structure
+
+# The best data structure depends on your needs:
+
+# Lists: General purpose, when order matters and you need to modify data.
+# Tuples: When data should remain constant and order is important.
+# Sets: For unique elements and set operations.
+# Dictionaries: For structured data with key-based access.
+
+# This is a basic introduction to Python's core data structures.
+# Feel free to ask if you'd like to delve deeper into specific structures, explore more advanced usage, or discuss additional data structures like stacks, queues, and linked lists (often implemented using built-in structures or modules).
